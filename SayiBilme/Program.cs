@@ -20,11 +20,11 @@ namespace NumberGuessing
 
                 if (holdNumber < guess)
                 {
-                    Console.WriteLine("enter bigger number");
+                    Console.WriteLine("enter smaller number");
                 }
                 else if (holdNumber > guess)
                 {
-                    Console.WriteLine("enter smaller number");
+                    Console.WriteLine("enter bigger number");
                 }
                 guess = Convert.ToInt32(Console.ReadLine());
             }
